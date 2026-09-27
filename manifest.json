@@ -1,0 +1,10 @@
+{
+    "id": "instacalc",
+    "name": "Instacalc",
+    "version": "2.3.0",
+    "minAppVersion": "1.4.0",
+    "description": "Natural-language calculations in your notes: units, currencies, percentages, and variables that flow across code blocks.",
+    "author": "Instacalc",
+    "authorUrl": "https://instacalc.com",
+    "isDesktopOnly": false
+}
