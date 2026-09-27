@@ -108,6 +108,14 @@ The network is used only when you choose to:
 Details: [instacalc.com/privacy](https://instacalc.com/privacy).
 <!-- network-use:end -->
 
+## Roadmap
+
+Ideas, not promises. Tell us what matters in [Discussions](https://github.com/kazad/instacalc/discussions).
+
+- **Your instacalc.com account:** save a block to your calcs, and pull a saved calc into a note.
+- **Obsidian's plugin directory:** install without BRAT once the beta settles.
+- **Mobile polish:** touch-friendly dragging and pickers on phone and tablet.
+
 ## Feedback
 
 Click **beta** on any calculation, or post in [Discussions](https://github.com/kazad/instacalc/discussions).
