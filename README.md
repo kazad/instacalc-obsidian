@@ -16,6 +16,33 @@ answers appear beside what you typed and update as you edit.
 This repository holds the plugin's **release builds and install notes only**.
 It is where testers install from; development happens elsewhere.
 
+## Where Instacalc fits
+
+Obsidian already has great tools for parts of this. Numerals does quick
+math with units; Obsidian renders LaTeX; Dataview queries your vault; Charts
+draws charts; Advanced Tables adds spreadsheet formulas to tables. If one of
+those covers what you need, use it.
+
+Instacalc is for when you want the whole thing in one place: math that reads
+like a sentence, the LaTeX you already write, charts, tables of data, and the
+what-if questions you would otherwise take to a spreadsheet, all in the same
+note, all live.
+
+| | Instacalc | Numerals | Obsidian LaTeX | Dataview | Charts | Advanced Tables | A spreadsheet |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Math in plain words, with units and currencies | Yes | Yes | | | | | Partly |
+| Variables across notes and frontmatter | Yes | Yes | | Yes | | | |
+| `$$` LaTeX that computes an answer | Yes | | Renders only | | | | |
+| Charts from the numbers in your note | Yes | | | | Yes | | Yes |
+| Tables of data you can calculate with | Yes | | | Yes | | Yes | Yes |
+| Drag a number to explore; drag an answer to solve backwards | Yes | | | | | | Goal Seek |
+| Share a calculation as a link anyone can open | Yes | | | | | | |
+
+They work side by side: Instacalc uses its own ```` ```ic ```` blocks, so
+nothing clashes. (Compared from each project's README, September 2026.
+Spotted something out of date? Tell us in
+[Discussions](https://github.com/kazad/instacalc/discussions).)
+
 ## Install with BRAT (recommended)
 
 BRAT (Beta Reviewers Auto-update Tester) installs the beta and keeps it up to
