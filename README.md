@@ -28,51 +28,74 @@ Then run **Instacalc: Create tutorial notes** from the command palette, or [read
 
 ## Recipes
 
-Put these in an `ic` code block (or any line of an `.ic.md` note).
+Copy one into any note.
 
 **Split a bill**
+````markdown
 ```ic
 bill = $86.40
 tip = 18% of bill
 each = (bill + tip) / 4
 ```
+````
+
+**An answer inside a sentence**
+````markdown
+```ic
+guests = 8
+total = $260
+```
+Dinner comes to {total}, which is {total / guests} each.
+````
 
 **Trip budget in another currency**
+````markdown
 ```ic
 hotel = 180 USD * 6
 flights = 1450 USD
 total = hotel + flights
 total in EUR
 ```
+````
 
 **Units and dates**
+````markdown
 ```ic
 5 km in miles
 today + 90 days
 ```
+````
 
 **A value from another note** (its frontmatter has `hourly: 150`)
+````markdown
 ```ic
 fee = [[Rates]].hourly * 12
 ```
+````
 
 **Add up a folder** (each note has `amount: 12` in its frontmatter)
+````markdown
 ```ic
 spend = vaultsum("Expenses/**", amount)
 ```
+````
 
 **Sum a column of a markdown table** in the same note
+````markdown
 ```ic
 sum(table("Materials", Cost))
 ```
+````
 
 **Chart it**
+````markdown
 ```ic
 rent = 1850
 food = 600
 fun = 300
 piechart
 ```
+````
 
 ## Share links
 
