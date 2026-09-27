@@ -2,7 +2,7 @@
 
 ![Demo: Units and currencies](https://raw.githubusercontent.com/kazad/instacalc-obsidian/main/media/lessons/02-units-and-currencies.gif)
 
-Units are part of the arithmetic. Write them and the answer carries them.
+Write units and the answer keeps them.
 
 5 miles in km  
 90 minutes in hours  
@@ -19,13 +19,11 @@ Units survive multiplication, so a speed times a time is a distance:
 speed = 60 mph  
 drive = speed * 2.5 hours
 
-A length plus a weight is not a number, so a line like `5 km + 3 kg` gets no  
-answer at all rather than a made-up one.
+Units that don't fit together, like `5 km + 3 kg`, get no answer.
 
 ## Money
 
-Currencies convert with a rate table that ships inside the plugin, so this  
-works on a plane. The rates are a snapshot, not today's market:
+Currency rates update once a day and still work offline. Turn that off in settings to use the rates built into the plugin.
 
 100 USD in EUR  
 hotel = 120 EUR * 3  
@@ -36,4 +34,4 @@ hotel in USD
 3.2k * 4  
 two million / 8
 
-Next: *03 - Notes that calculate*.
+Next: [03 - Notes that calculate](03%20-%20Notes%20that%20calculate.md).

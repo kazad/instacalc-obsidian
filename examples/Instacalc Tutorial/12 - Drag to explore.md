@@ -2,8 +2,7 @@
 
 ![Demo: Drag to explore](https://raw.githubusercontent.com/kazad/instacalc-obsidian/main/media/lessons/12-drag-to-explore.gif)
 
-In reading view, the numbers in a calc block are handles. This lesson is the
-question people bring to a mortgage calculator: what can I afford?
+In reading view, you can drag the numbers in a calc block. Here is a mortgage: what can you afford?
 
 ```ic
 price = $400,000
@@ -16,21 +15,12 @@ monthly = pmt(rate / 12, years * 12, -loan)
 
 ## Drag a number
 
-Press on `6.5%` and drag sideways. The rate moves in small round steps and
-every answer below it follows while you drag. Let go and the new rate is written
-into the note, so what you see is what the file says. The same works on
-`$400,000` and `30`.
+Drag `6.5%` sideways. The answers update as you drag, and the new rate is saved in the note when you let go. `$400,000` and `30` work the same way.
 
 ## Drag an answer to solve backwards
 
-Now drag the **answer** beside `monthly`. You are setting the payment, and the
-plugin works out the input that produces it. Drag it up to $2,500 and `price`
-becomes $494,409: that is the house a $2,500 payment buys at this rate.
+Drag the **answer** beside `monthly` to set the payment you want, and an input changes to match. Drag it to $2,500 and `price` becomes $494,409.
 
-It changes the input the answer depends on most, which here is the price
-rather than the rate, and writes the solved number into the note.
+To type a target instead, use **Solve for target…** in the block's **⋯** menu.
 
-To type a target instead of dragging, use **Goal Seek (solve backwards)** in
-the block's **⋯** menu.
-
-Next: *13 - Insert picker*.
+Next: [13 - Insert picker](13%20-%20Insert%20picker.md).

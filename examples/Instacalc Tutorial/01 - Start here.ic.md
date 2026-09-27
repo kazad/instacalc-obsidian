@@ -2,9 +2,7 @@
 
 ![Demo: Start here](https://raw.githubusercontent.com/kazad/instacalc-obsidian/main/media/lessons/01-start-here.gif)
 
-This note is a calculator. Every line that reads as a calculation gets its  
-answer beside it, and sentences like this one are left alone. That is what the  
-`.ic.md` ending means. Change any number and the answers follow.
+This note ends in `.ic.md`, so it is Instacalc first, then Markdown. Every line is a calculation unless it reads as text.
 
 ## A weekend away
 
@@ -12,7 +10,7 @@ Plain arithmetic, no syntax:
 
 420 + 380
 
-Name a value and use it later. Names can have spaces:
+Name a value to use it later. Names can have spaces:
 
 flights = 420 + 380  
 hotel = 3 * 145  
@@ -28,7 +26,6 @@ Split three ways. Anything after `//` is a comment:
 total / 3 // each  
 round(total / 3) // each, rounded
 
-In an ordinary `.md` note the default is the other way round: calculations go  
-in a ```ic fence and everything else is prose. Lesson 03 shows that.
+A plain `.md` note is Markdown, with Instacalc inside `` ```ic `` blocks and `{…}` in sentences.
 
-Next: *02 - Units and currencies*.
+Next: [02 - Units and currencies](02%20-%20Units%20and%20currencies.ic.md).

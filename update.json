@@ -1,0 +1,7 @@
+{
+  "v": 1,
+  "latest": "0.5.0",
+  "notes": "First beta. Install with BRAT: add kazad/instacalc-obsidian. Feedback: click beta on any block, or https://github.com/kazad/instacalc/discussions.",
+  "critical": false,
+  "minimum": null
+}

@@ -1,0 +1,401 @@
+{
+  "examples": {
+    "a-day": {
+      "path": "A day.md",
+      "title": "Where the day goes",
+      "fingerprint": "53671a3eb518ed6b6871",
+      "parts": {
+        "note": "3f6085fb2b78b332",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.026Z",
+      "stillBytes": 74273,
+      "verified": [
+        "16.5"
+      ]
+    },
+    "a-function-and-its-slope": {
+      "path": "A function and its slope.md",
+      "title": "A function and its slope",
+      "fingerprint": "71a95a0e460fcb11e1bc",
+      "parts": {
+        "note": "9d29d46f8b9a33d5",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.026Z",
+      "stillBytes": 59211,
+      "verified": []
+    },
+    "braking-energy": {
+      "path": "Braking energy.md",
+      "title": "Physics with units",
+      "fingerprint": "cda00d9e6b563f04702b",
+      "parts": {
+        "note": "f988bfffaf9a8166",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.027Z",
+      "stillBytes": 56803,
+      "verified": [
+        "578.7",
+        "0.1608"
+      ]
+    },
+    "calculus": {
+      "path": "Calculus.md",
+      "title": "Calculus",
+      "fingerprint": "9f88dfc2a062ca9e6e9e",
+      "parts": {
+        "note": "908460f55edec08c",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.025Z",
+      "stillBytes": 32291,
+      "verified": [
+        "9",
+        "1"
+      ]
+    },
+    "coffee-spend": {
+      "path": "Coffee spend.md",
+      "title": "Totals across the vault",
+      "fingerprint": "34aba7bdf287486433ff",
+      "parts": {
+        "note": "f4ce80adefb6cf2d",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.028Z",
+      "stillBytes": 59323,
+      "verified": [
+        "5",
+        "$96.70",
+        "$21.20"
+      ]
+    },
+    "compound-growth": {
+      "path": "Compound growth.md",
+      "title": "Compound growth",
+      "fingerprint": "260db4cce6d980f06672",
+      "parts": {
+        "note": "f8fa91bd02fc9244",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.027Z",
+      "stillBytes": 69311,
+      "verified": [
+        "$76,122.55"
+      ]
+    },
+    "conversions": {
+      "path": "Conversions.md",
+      "title": "Unit conversions",
+      "fingerprint": "47b218aba0b584b307ff",
+      "parts": {
+        "note": "ffcc891bc06bc57c",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.028Z",
+      "stillBytes": 24574,
+      "verified": [
+        "26.22",
+        "709.8",
+        "22.22"
+      ]
+    },
+    "countdown": {
+      "path": "Countdown.md",
+      "title": "Dates",
+      "fingerprint": "02dd614daf653acf088e",
+      "parts": {
+        "note": "8714afde9df99e56",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.029Z",
+      "stillBytes": 47340,
+      "verified": [
+        "83",
+        "Mon, Dec 28, 2026"
+      ]
+    },
+    "dinner-party": {
+      "path": "Dinner party.md",
+      "title": "Properties are variables",
+      "fingerprint": "3bcd8000d706f8551b7f",
+      "parts": {
+        "note": "45364ae0d48d7fb4",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.028Z",
+      "stillBytes": 50156,
+      "verified": [
+        "$336.00",
+        "$412.00"
+      ]
+    },
+    "dinner-split": {
+      "path": "Dinner split.md",
+      "title": "Answers in a sentence",
+      "fingerprint": "0faadbe72082905a593b",
+      "parts": {
+        "note": "f193202b55253dad",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.029Z",
+      "stillBytes": 44215,
+      "verified": [
+        "$223.68",
+        "$55.92"
+      ]
+    },
+    "groceries-ic": {
+      "path": "Groceries.ic.md",
+      "title": "Calc-first notes",
+      "fingerprint": "1e51a76d45085491b51b",
+      "parts": {
+        "note": "26b7d15a52112b08",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.030Z",
+      "stillBytes": 46850,
+      "verified": [
+        "$35.23",
+        "$5.03"
+      ]
+    },
+    "growth-curves": {
+      "path": "Growth curves.md",
+      "title": "Growth curves",
+      "fingerprint": "6e32ad985ff085540a6d",
+      "parts": {
+        "note": "2882a1bdafde3647",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.026Z",
+      "stillBytes": 53653,
+      "verified": []
+    },
+    "invoice": {
+      "path": "Invoice.md",
+      "title": "Numbers from other notes",
+      "fingerprint": "27c188002a7970e4e82b",
+      "parts": {
+        "note": "ce764e63501e02f9",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.028Z",
+      "stillBytes": 59985,
+      "verified": [
+        "2,400",
+        "$5,141.00",
+        "$6,859.00"
+      ]
+    },
+    "kitchen-quote": {
+      "path": "Kitchen quote.md",
+      "title": "A table is data",
+      "fingerprint": "e7a3c1aac7dda27d42e0",
+      "parts": {
+        "note": "63e95becf65eb402",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.028Z",
+      "stillBytes": 81178,
+      "verified": [
+        "2,741",
+        "1,620"
+      ]
+    },
+    "lisbon-trip": {
+      "path": "Lisbon trip.md",
+      "title": "Drag to explore",
+      "fingerprint": "62a89aeb5633fb1f0f8f",
+      "parts": {
+        "note": "2b7b05cb7e785d9d",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.030Z",
+      "stillBytes": 55612,
+      "gifBytes": 158732,
+      "verified": [
+        "$1,940.00"
+      ]
+    },
+    "monthly-spending": {
+      "path": "Monthly spending.md",
+      "title": "Monthly spending",
+      "fingerprint": "c138d95cc349924b4fce",
+      "parts": {
+        "note": "e33044ee60e0bae2",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.026Z",
+      "stillBytes": 86766,
+      "verified": [
+        "$3,020.00"
+      ]
+    },
+    "mortgage": {
+      "path": "Mortgage.md",
+      "title": "Mortgage, solved backwards",
+      "fingerprint": "990da5ddb9efcd8afcc4",
+      "parts": {
+        "note": "5b0c5bd73bece075",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.027Z",
+      "stillBytes": 54633,
+      "gifBytes": 246360,
+      "verified": [
+        "$2,216.58"
+      ]
+    },
+    "present-view": {
+      "path": "Present view.md",
+      "title": "Present view",
+      "fingerprint": "5b072b7acb660f39c8f5",
+      "parts": {
+        "note": "ddace59f9015a042",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.030Z",
+      "stillBytes": 49732,
+      "verified": []
+    },
+    "projectile": {
+      "path": "Projectile.md",
+      "title": "LaTeX that computes",
+      "fingerprint": "fc8af66044d479c96d67",
+      "parts": {
+        "note": "9ca1daa39952df23",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.028Z",
+      "stillBytes": 36903,
+      "verified": [
+        "25",
+        "31.86 m",
+        "5.097 s"
+      ]
+    },
+    "projects": {
+      "path": "Projects.md",
+      "title": "A dashboard from tagged notes",
+      "fingerprint": "6e659fa6781ed85d3566",
+      "parts": {
+        "note": "156129c940fd3c6f",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.029Z",
+      "stillBytes": 59963,
+      "verified": [
+        "14,000",
+        "8,500"
+      ]
+    },
+    "race-times": {
+      "path": "Race times.md",
+      "title": "Statistics",
+      "fingerprint": "4ed4ad6f11eb8bb31219",
+      "parts": {
+        "note": "80d05b1e5038e3df",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.028Z",
+      "stillBytes": 112307,
+      "verified": [
+        "30.45",
+        "30.25",
+        "1.133"
+      ]
+    },
+    "surface": {
+      "path": "Surface.md",
+      "title": "A 3D surface",
+      "fingerprint": "282a7338723cfa70455f",
+      "parts": {
+        "note": "b2c40a7d83a70458",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.026Z",
+      "stillBytes": 154001,
+      "verified": []
+    },
+    "text-view": {
+      "path": "Text view.md",
+      "title": "Text view",
+      "fingerprint": "7cd6dcf9e79fb3c30147",
+      "parts": {
+        "note": "fc8759759cb7c596",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.030Z",
+      "stillBytes": 53048,
+      "verified": []
+    },
+    "tokyo-prices": {
+      "path": "Tokyo prices.md",
+      "title": "Currency conversion",
+      "fingerprint": "d7fc71e7613a3902b612",
+      "parts": {
+        "note": "e6a3ae49772d1c3e",
+        "data": "a84608faeffbbc03",
+        "plugin": "9c4342ed0d5a05cc",
+        "tool": "caab8700887a7b77"
+      },
+      "recordedAt": "2026-09-27T05:40:42.027Z",
+      "stillBytes": 53037,
+      "verified": [
+        "$7.64",
+        "$117.83",
+        "$318.47",
+        "$219.77"
+      ]
+    }
+  }
+}

@@ -2,8 +2,7 @@
 
 ![Demo: Making a note presentable](https://raw.githubusercontent.com/kazad/instacalc-obsidian/main/media/lessons/10-making-a-note-presentable.gif)
 
-Decorators turn a worksheet into something worth reading. Intermediates  
-disappear, the answer stands out, and each input is named.
+Decorators make a worksheet easier to read. They hide the working, highlight the answer, and label the inputs.
 
 # Inputs
 
@@ -37,7 +36,4 @@ interest = total paid - principal @label(Of which interest) @prefix($)
 | `@prefix($)` | renders before the number |  
 | `---` | a divider |
 
-Without the plugin this is still readable text: the decorators are plain words  
-at the end of a line.
-
-Next: *11 - Formulas that compute*.
+Next: [11 - Formulas that compute](11%20-%20Formulas%20that%20compute.md).

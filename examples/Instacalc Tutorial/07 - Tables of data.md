@@ -2,10 +2,7 @@
 
 ![Demo: Tables of data](https://raw.githubusercontent.com/kazad/instacalc-obsidian/main/media/lessons/07-tables-of-data.gif)
 
-Frontmatter gives one number from this note, `[[Rates]]` one from another, and
-`vaultsum` a folder full. The thing people actually keep by hand, in quantity,
-is a **table** — and it computes where it already sits, with no second copy of
-the numbers to keep in step.
+A calculation can read a Markdown table in the same note. The table stays an ordinary table.
 
 ## Materials
 
@@ -22,39 +19,24 @@ subtotal = sum(map(materials, r => r.unit_cost * r.qty))
 dearest = max(table("Materials", Unit Cost))
 ```
 
-Add a row to the table above and every number here follows. The table stays an
-ordinary markdown table — sortable, editable, and readable by anyone who opens
-the note without this plugin.
+Add a row to the table and every number here follows.
 
 ## Two shapes
 
-`table("Materials")` is the whole grid, as rows you reach into with a lambda:
-`r => r.unit_cost * r.qty`. `table("Materials", Unit Cost)` is a single
-column as a flat list, which is what `sum`, `avg`, `min`, `max` and
-`sort` already take.
+`table("Materials")` gives the rows, which you reach into like `r => r.unit_cost * r.qty`. `table("Materials", Unit Cost)` gives one column as a list, ready for `sum`, `avg`, `min` and `max`.
 
-A column heading becomes a lambda field by lower-casing and turning runs of
-anything else into `_`, so `Unit Cost` is `unit_cost`. Either spelling
-works inside `table(…)`.
+In a row, a column name is lower-cased with spaces turned into `_`, so `Unit Cost` becomes `unit_cost`.
 
 ## How a table is named
 
-A markdown table has no identifier of its own, so it answers to two names you
-already wrote: the **nearest heading above it** and its **first header cell**.
-Case does not matter, so `table("item")` finds this same grid.
+A table goes by the heading above it or by its first column header, in any case, so `table("item")` finds this table too. A name that matches two tables gives an error instead of a guess.
 
-That is only safe because a name matching two tables is refused rather than
-guessed. Position — "the second table" — was never offered: it starts reading
-different data the day someone inserts a table above it.
-
-## When it cannot be read, it says so
+## Mistakes
 
 ```ic
 oops = sum(table("Matrials", Unit Cost))
 ```
 
-A misspelt table lists the tables the note really has; a misspelt column lists
-the real columns. Nothing here answers a question it could not read with a
-`0`, which would look exactly like a real total.
+A misspelled table or column shows an error that lists the real ones, never a `0`.
 
-Next: *08 - Results in a sentence*.
+Next: [08 - Results in a sentence](08%20-%20Results%20in%20a%20sentence.md).

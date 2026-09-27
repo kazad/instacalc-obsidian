@@ -16,4 +16,4 @@ Happy math,
 
 -Kalid
 
-Next: *[[01 - Start here.ic|01 - Start here]]*.
+Next: [01 - Start here](01%20-%20Start%20here.ic.md).

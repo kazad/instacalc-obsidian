@@ -3,18 +3,18 @@
     "01-start-here": {
       "lesson": "01 - Start here.ic.md",
       "title": "Start here",
-      "fingerprint": "f7312c6e9a526e18b549",
+      "fingerprint": "6b5ebbccaf79d4cad7a4",
       "parts": {
-        "lesson": "0ea008be38952d99",
+        "lesson": "4068d27dd6a10bab",
         "scene": "6bae4560be95db1d",
         "data": "66761c54d19bf89f",
-        "plugin": "fa9be171e1476edc"
+        "plugin": "9c4342ed0d5a05cc"
       },
-      "recordedAt": "2026-09-27T03:53:45.801Z",
+      "recordedAt": "2026-09-27T05:36:27.301Z",
       "seconds": 6.07,
       "gesture": "replace",
-      "bytes": 138541,
-      "stillBytes": 76970,
+      "bytes": 121713,
+      "stillBytes": 76411,
       "expectChecked": [
         "800",
         "435",
@@ -28,18 +28,18 @@
     "02-units-and-currencies": {
       "lesson": "02 - Units and currencies.ic.md",
       "title": "Units and currencies",
-      "fingerprint": "71430e05f0043e6214c9",
+      "fingerprint": "23655bdc6e126413a357",
       "parts": {
-        "lesson": "6ff5a5f77cba2ad0",
+        "lesson": "e77bf140e6716e5d",
         "scene": "38d68b53917d554f",
         "data": "66761c54d19bf89f",
-        "plugin": "fa9be171e1476edc"
+        "plugin": "9c4342ed0d5a05cc"
       },
-      "recordedAt": "2026-09-27T03:53:47.169Z",
+      "recordedAt": "2026-09-27T05:45:19.707Z",
       "seconds": 6.73,
       "gesture": "type",
-      "bytes": 357507,
-      "stillBytes": 97079,
+      "bytes": 337243,
+      "stillBytes": 90396,
       "expectChecked": [
         "8.047",
         "1.5",
@@ -58,18 +58,18 @@
     "03-notes-that-calculate": {
       "lesson": "03 - Notes that calculate.md",
       "title": "Notes that calculate",
-      "fingerprint": "bac45efdb4da14140d61",
+      "fingerprint": "3a78c6764940a8f120b2",
       "parts": {
-        "lesson": "67e6737a3dcbd9b0",
+        "lesson": "8fa5d71cfcdb46e8",
         "scene": "9a6f2b9e660d2feb",
         "data": "66761c54d19bf89f",
-        "plugin": "fa9be171e1476edc"
+        "plugin": "9c4342ed0d5a05cc"
       },
-      "recordedAt": "2026-09-27T03:53:48.806Z",
+      "recordedAt": "2026-09-27T05:36:50.150Z",
       "seconds": 7.87,
       "gesture": "type",
-      "bytes": 396807,
-      "stillBytes": 99753,
+      "bytes": 354276,
+      "stillBytes": 84105,
       "expectChecked": [
         "880",
         "10,560",
@@ -79,18 +79,18 @@
     "04-charts": {
       "lesson": "04 - Charts.md",
       "title": "Charts",
-      "fingerprint": "2806521a3136ea5949f9",
+      "fingerprint": "2ec177ef883615f5f4aa",
       "parts": {
-        "lesson": "0925e932cb9e818d",
+        "lesson": "0f72ae09bead70e5",
         "scene": "ec6a27a35bcf725a",
         "data": "66761c54d19bf89f",
-        "plugin": "fa9be171e1476edc"
+        "plugin": "9c4342ed0d5a05cc"
       },
-      "recordedAt": "2026-09-27T03:54:06.508Z",
+      "recordedAt": "2026-09-27T05:36:49.233Z",
       "seconds": 8.73,
       "gesture": "scroll",
-      "bytes": 1172726,
-      "stillBytes": 76543,
+      "bytes": 1163792,
+      "stillBytes": 77536,
       "expectChecked": [
         "1,800",
         "10,000"
@@ -99,42 +99,43 @@
     "05-reading-other-notes": {
       "lesson": "05 - Reading other notes.ic.md",
       "title": "Reading other notes",
-      "fingerprint": "61246bba333b99761fd1",
+      "fingerprint": "d92c0d360fcb81286cc5",
       "parts": {
-        "lesson": "d719bd38105f1f60",
-        "scene": "4cb74fd94ea520f9",
+        "lesson": "3f121197e2be8965",
+        "scene": "e168d20226ebe4ee",
         "data": "66761c54d19bf89f",
-        "plugin": "fa9be171e1476edc"
+        "plugin": "9c4342ed0d5a05cc"
       },
-      "recordedAt": "2026-09-27T03:54:11.324Z",
-      "seconds": 8.53,
-      "gesture": "type",
-      "bytes": 337540,
-      "stillBytes": 113229,
+      "recordedAt": "2026-09-27T05:44:37.851Z",
+      "seconds": 6.87,
+      "gesture": "replace → hold",
+      "bytes": 174963,
+      "stillBytes": 91741,
       "expectChecked": [
         "1,800",
         "144",
         "1,944",
         "12,000",
         "10,056",
+        "2,100",
         "600.00"
       ]
     },
     "06-totals-across-the-vault": {
       "lesson": "06 - Totals across the vault.ic.md",
       "title": "Totals across the vault",
-      "fingerprint": "180b816846427c5e399c",
+      "fingerprint": "33a162b2039099806065",
       "parts": {
-        "lesson": "8a5efd4930dc69e6",
+        "lesson": "4ce0aa0a449fd201",
         "scene": "54a47a1509ea693d",
         "data": "66761c54d19bf89f",
-        "plugin": "fa9be171e1476edc"
+        "plugin": "9c4342ed0d5a05cc"
       },
-      "recordedAt": "2026-09-27T03:54:08.701Z",
+      "recordedAt": "2026-09-27T05:37:09.935Z",
       "seconds": 6.07,
       "gesture": "replace",
-      "bytes": 127201,
-      "stillBytes": 74540,
+      "bytes": 128617,
+      "stillBytes": 81337,
       "expectChecked": [
         "0.5",
         "1,800",
@@ -147,18 +148,18 @@
     "07-tables-of-data": {
       "lesson": "07 - Tables of data.md",
       "title": "Tables of data",
-      "fingerprint": "8cba35cb2db9923b3579",
+      "fingerprint": "0f221e57be8855d9ee1e",
       "parts": {
-        "lesson": "87b316c7e1739793",
+        "lesson": "faecaa97338433f9",
         "scene": "bd657bded7f2edcf",
         "data": "66761c54d19bf89f",
-        "plugin": "fa9be171e1476edc"
+        "plugin": "9c4342ed0d5a05cc"
       },
-      "recordedAt": "2026-09-27T03:54:32.032Z",
+      "recordedAt": "2026-09-27T05:37:35.146Z",
       "seconds": 8.2,
       "gesture": "type → hold",
-      "bytes": 257185,
-      "stillBytes": 98748,
+      "bytes": 255383,
+      "stillBytes": 97241,
       "expectChecked": [
         "3",
         "3,188",
@@ -169,18 +170,18 @@
     "08-results-in-a-sentence": {
       "lesson": "08 - Results in a sentence.md",
       "title": "Results in a sentence",
-      "fingerprint": "af823428560178c0fb37",
+      "fingerprint": "d24329b40d806fa7bc7a",
       "parts": {
-        "lesson": "aeeb152de5a63ba5",
+        "lesson": "57b65498b7a97030",
         "scene": "0f9eca9bc11e1f49",
         "data": "66761c54d19bf89f",
-        "plugin": "fa9be171e1476edc"
+        "plugin": "9c4342ed0d5a05cc"
       },
-      "recordedAt": "2026-09-27T03:54:29.177Z",
+      "recordedAt": "2026-09-27T05:37:34.727Z",
       "seconds": 6,
       "gesture": "replace",
-      "bytes": 163049,
-      "stillBytes": 93581,
+      "bytes": 133423,
+      "stillBytes": 77324,
       "expectChecked": [
         "188",
         "260",
@@ -194,18 +195,18 @@
     "09-calculus": {
       "lesson": "09 - Calculus.ic.md",
       "title": "Calculus",
-      "fingerprint": "ceddad98e2f8d5aa0eca",
+      "fingerprint": "986aa7fec16df3bf1db7",
       "parts": {
-        "lesson": "58aaec83b4f4ee50",
+        "lesson": "110c37b404917ae8",
         "scene": "4b7ca49f79fba1ae",
         "data": "66761c54d19bf89f",
-        "plugin": "fa9be171e1476edc"
+        "plugin": "9c4342ed0d5a05cc"
       },
-      "recordedAt": "2026-09-27T03:54:32.826Z",
+      "recordedAt": "2026-09-27T05:37:55.811Z",
       "seconds": 6.67,
       "gesture": "type",
-      "bytes": 105427,
-      "stillBytes": 69187,
+      "bytes": 114359,
+      "stillBytes": 65130,
       "expectChecked": [
         "2*x",
         "cos(x)",
@@ -220,18 +221,18 @@
     "10-making-a-note-presentable": {
       "lesson": "10 - Making a note presentable.ic.md",
       "title": "Making a note presentable",
-      "fingerprint": "64f15984e33aa0139c83",
+      "fingerprint": "24434c36c02364962677",
       "parts": {
-        "lesson": "13a9017d5b682b4d",
+        "lesson": "cb6ce1ac0728ff36",
         "scene": "3d95f4b2e825eb81",
         "data": "66761c54d19bf89f",
-        "plugin": "fa9be171e1476edc"
+        "plugin": "9c4342ed0d5a05cc"
       },
-      "recordedAt": "2026-09-27T03:54:48.868Z",
+      "recordedAt": "2026-09-27T05:37:54.679Z",
       "seconds": 8.13,
       "gesture": "scroll",
-      "bytes": 979097,
-      "stillBytes": 79313,
+      "bytes": 947884,
+      "stillBytes": 79568,
       "expectChecked": [
         "450,000",
         "2,021.51",
@@ -242,18 +243,18 @@
     "11-formulas-that-compute": {
       "lesson": "11 - Formulas that compute.md",
       "title": "Formulas that compute",
-      "fingerprint": "90967d521638dafe3e35",
+      "fingerprint": "fc7ecc6b184591c671b7",
       "parts": {
-        "lesson": "e712cbf4d3baf1ff",
+        "lesson": "323b4fb32b2c6ff9",
         "scene": "87dfab4b71eeb5ee",
         "data": "66761c54d19bf89f",
-        "plugin": "fa9be171e1476edc"
+        "plugin": "9c4342ed0d5a05cc"
       },
-      "recordedAt": "2026-09-27T03:54:52.795Z",
+      "recordedAt": "2026-09-27T05:38:14.674Z",
       "seconds": 6.07,
       "gesture": "replace",
-      "bytes": 141008,
-      "stillBytes": 76837,
+      "bytes": 136646,
+      "stillBytes": 66652,
       "expectChecked": [
         "15",
         "37.66",
@@ -267,18 +268,18 @@
     "12-drag-to-explore": {
       "lesson": "12 - Drag to explore.md",
       "title": "Drag to explore",
-      "fingerprint": "5288beb7e73a6fd92d6b",
+      "fingerprint": "4e97d021991f2ad705c7",
       "parts": {
-        "lesson": "937ee77fbf992fbb",
+        "lesson": "9294691868267aa2",
         "scene": "20ca7d16164e0395",
         "data": "66761c54d19bf89f",
-        "plugin": "fa9be171e1476edc"
+        "plugin": "9c4342ed0d5a05cc"
       },
-      "recordedAt": "2026-09-27T03:55:03.112Z",
+      "recordedAt": "2026-09-27T05:38:24.806Z",
       "seconds": 12.47,
       "gesture": "scrub → scrub",
-      "bytes": 579811,
-      "stillBytes": 116323,
+      "bytes": 554969,
+      "stillBytes": 100501,
       "expectChecked": [
         "$320,000.00",
         "$2,022.62"
@@ -287,18 +288,18 @@
     "13-insert-picker": {
       "lesson": "13 - Insert picker.md",
       "title": "Insert picker",
-      "fingerprint": "1a17193e617e4a88bedb",
+      "fingerprint": "dcd5f3810b862f1b5c0a",
       "parts": {
-        "lesson": "9e6e89e2b159855b",
+        "lesson": "4fc7f954adc07e3a",
         "scene": "292c91b673832210",
         "data": "66761c54d19bf89f",
-        "plugin": "fa9be171e1476edc"
+        "plugin": "9c4342ed0d5a05cc"
       },
-      "recordedAt": "2026-09-27T03:55:09.702Z",
+      "recordedAt": "2026-09-27T05:38:34.557Z",
       "seconds": 6.93,
       "gesture": "click",
-      "bytes": 311785,
-      "stillBytes": 104479,
+      "bytes": 316448,
+      "stillBytes": 103853,
       "expectChecked": [
         "4"
       ]
@@ -306,22 +307,39 @@
     "14-share-and-present": {
       "lesson": "14 - Share and present.md",
       "title": "Share and present",
-      "fingerprint": "957ae6bacadbbffe4689",
+      "fingerprint": "b8f659ca42909107b5e2",
       "parts": {
-        "lesson": "28b47b210b7e46eb",
+        "lesson": "1718aa1401e4292a",
         "scene": "6a4bfe25d4d7cd87",
         "data": "66761c54d19bf89f",
-        "plugin": "fa9be171e1476edc"
+        "plugin": "9c4342ed0d5a05cc"
       },
-      "recordedAt": "2026-09-27T03:55:23.825Z",
+      "recordedAt": "2026-09-27T05:38:55.151Z",
       "seconds": 11.87,
       "gesture": "click → click",
-      "bytes": 306519,
-      "stillBytes": 94374,
+      "bytes": 288199,
+      "stillBytes": 87920,
       "expectChecked": [
         "$720.00",
         "$1,560.00"
       ]
+    }
+  },
+  "schematic": {
+    "fingerprint": "34470a9e585fb69af2ad",
+    "parts": {
+      "plugin": "9c4342ed0d5a05cc",
+      "config": "7075ee40d79f7586",
+      "tool": "5834cdc227204905"
+    },
+    "recordedAt": "2026-09-27T05:39:03.452Z",
+    "files": [
+      "schematic-light.png",
+      "schematic-dark.png"
+    ],
+    "bytes": {
+      "light": 341050,
+      "dark": 329406
     }
   }
 }

@@ -2,8 +2,7 @@
 
 ![Demo: Calculus](https://raw.githubusercontent.com/kazad/instacalc-obsidian/main/media/lessons/09-calculus.gif)
 
-Derivatives and integrals are worked symbolically, and the answer sits beside  
-the question:
+Derivatives and integrals are worked out symbolically:
 
 d/dx x^2  
 d/dx sin(x)  
@@ -28,10 +27,6 @@ Or graph it:
 graph d/dx sin(x)
 ```
 
-## A trap worth knowing
+Don't name a variable `d` in a note with derivatives, or `d/dx` will read as a division.
 
-Do not name a variable `d` in a note that also takes derivatives — `d/dx`  
-then reads as a division by `dx`, and every derivative in the note changes  
-meaning without complaining.
-
-Next: *10 - Making a note presentable*.
+Next: [10 - Making a note presentable](10%20-%20Making%20a%20note%20presentable.ic.md).

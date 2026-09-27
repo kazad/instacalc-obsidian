@@ -2,12 +2,7 @@
 
 ![Demo: Reading other notes](https://raw.githubusercontent.com/kazad/instacalc-obsidian/main/media/lessons/05-reading-other-notes.gif)
 
-Numbers that matter usually live somewhere else — a rate card, a budget, a  
-settings note. Reference one with the same `[[…]]` you already use for links.
-
-The rates for this lesson live in [[Rates]]. That sentence is prose, and shows  
-no number, because a bare reference only computes where arithmetic is  
-happening.
+Use a number from another note with the same `[[…]]` you use for links. The rates for this lesson live in [[Rates]].
 
 hours = 12  
 fee = [[Rates]].hourly * hours  
@@ -18,9 +13,7 @@ Edit `hourly` in [[Rates]] and every row above follows.
 
 ## Typing one
 
-Type `[[` and Obsidian's own note picker opens. After the closing `]]`,  
-type a `.` and this plugin lists that note's numbers, each showing its current  
-value — so you can tell one rate from another without leaving the line.
+Type `[[` to pick a note. After the closing `]]`, type a `.` to see that note's numbers and their values.
 
 ## A note's headline number
 
@@ -29,11 +22,10 @@ A note with a single obvious number can be referenced bare:
 ceiling = [[Q3 Budget]]  
 headroom = ceiling - invoice
 
-## When it is wrong, it says so
+## Mistakes
 
-A reference that names a property the note does not have tells you what it does  
-have, rather than quietly showing nothing:
+A property the note does not have shows an error that lists the ones it does have:
 
 typo = [[Rates]].hourlyRate
 
-Next: *06 - Totals across the vault*.
+Next: [06 - Totals across the vault](06%20-%20Totals%20across%20the%20vault.ic.md).
