@@ -4,7 +4,7 @@ I made this plugin so you can do math, convert units, draw charts, and run LaTeX
 
 [![A one-minute tour](media/tour.gif)](media/tour.mp4)
 
-> **Beta:** This plugin is in development and may be unstable. The Obsidian-specific syntax (like `{…}` answers and vault functions) may change slightly before 1.0. BRAT keeps you on the latest build.
+> **Beta:** This plugin is in development and may be unstable. The Obsidian-specific syntax, like `{…}` answers and how you query your vault, may change slightly before 1.0. BRAT keeps you on the latest build.
 
 ## How it compares
 
