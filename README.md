@@ -4,6 +4,10 @@ Calculations, units, charts and LaTeX that compute, right in your notes.
 Write `rent = $1,850/month` on one line and `rent * 12` on the next; the
 answers appear beside what you typed and update as you edit.
 
+[![A one-minute tour: a trip budget that computes, drag-to-explore, goal seek, charts, LaTeX that evaluates, and stateless share links](media/tour.gif)](media/tour.mp4)
+
+*One-minute tour ([full-quality video](media/tour.mp4)).*
+
 - Natural-language math: percentages, units, currencies, dates
 - Variables that flow across a note's calculation blocks
 - Charts and plots from the numbers you already wrote
