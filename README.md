@@ -47,6 +47,9 @@ From inside a note, open the Instacalc toolbar's **"..."** menu and choose
 **Send feedback**. It goes straight to the Instacalc team, and that is the
 fastest way to report a wrong answer, a rendering glitch or an idea.
 
+To ask a question, share a note, or discuss an idea in the open, use
+[GitHub Discussions](https://github.com/kazad/instacalc-obsidian/discussions).
+
 ## Requirements
 
 Obsidian 1.4.0 or newer, desktop or mobile.
