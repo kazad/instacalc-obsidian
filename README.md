@@ -124,12 +124,13 @@ Anyone with the link can open it and see the live calculation. They do not need 
 
 Your notes stay in your vault. Every calculation runs on your device, and you don't need an account. The plugin never tracks what you type or which features you use.
 
-It goes online in four cases:
+It goes online in three cases:
 
 - **Update check (on by default).** Once a day the plugin asks instacalc.com whether there's a newer version, and sends its version number so it can tell. We also count these checks to learn roughly how many people use the plugin each day. For that count our server keeps the date, the plugin version, your country, and a code made from your IP address and browser info with a key that changes every day. We don't keep your IP address or browser info, and a code can't be matched to you on any other day. To turn it off: Settings → Instacalc → Check for updates.
 - **Web view or share link.** When you open a calculation in the Web view or share a link, that calculation (plus any values it uses from other notes) goes into the instacalc.com link. Anyone with the link can open it. Nothing is stored on our server.
 - **Send feedback.** Only when you send the form: your message, your app versions, and the calculation if you choose to attach it.
-- **Lesson demos.** The tutorial's GIFs load from this GitHub repository.
+
+(The tutorial notes include demo GIFs hosted in this GitHub repository, like any image link in a note.)
 
 Details: [instacalc.com/privacy](https://instacalc.com/privacy).
 <!-- network-use:end -->
