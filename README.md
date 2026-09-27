@@ -24,6 +24,16 @@ Then run **Instacalc: Create tutorial notes** from the command palette.
 - **Calc-first notes:** name a note `.ic.md` and every line computes.
 - **Share:** a link with the whole calculation in it, or the web Present view.
 
+## Share links
+
+A share link is the calculation itself, written into the URL. The rows are joined by `;`, spaces become `_`, and the note's name leads as a `# heading`:
+
+```
+https://instacalc.com/%23_Japan_trip;nights_=_6;hotel_=_180_USD_*_nights;flights_=_1450_USD;total_=_hotel_+_flights;total_in_JPY
+```
+
+Anyone with the link sees the live calc, and can change the numbers and see the results update. They don't need Obsidian or an account, and nothing is stored on a server. Some rows use values from elsewhere in your vault, like `[[Budget]].rate` or a variable set earlier in the note. The link carries those values, so it works on its own. You can edit a link by hand: `instacalc.com/2+2` works.
+
 ## How it compares
 
 <picture>
