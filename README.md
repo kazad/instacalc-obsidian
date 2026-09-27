@@ -52,7 +52,7 @@ From inside a note, open the Instacalc toolbar's **"..."** menu and choose
 fastest way to report a wrong answer, a rendering glitch or an idea.
 
 To ask a question, share a note, or discuss an idea in the open, use
-[GitHub Discussions](https://github.com/kazad/instacalc-obsidian/discussions).
+[Instacalc Discussions on GitHub](https://github.com/kazad/instacalc/discussions), the community for Instacalc on the web and in Obsidian.
 
 ## Requirements
 
