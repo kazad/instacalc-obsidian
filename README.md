@@ -19,7 +19,7 @@ It's the [instacalc.com](https://instacalc.com) engine, brought into Obsidian to
 
 ## Looks like your Obsidian
 
-Blocks use your theme's colours and fonts, and follow it when you switch themes.
+Calc blocks use your theme's colours and fonts. The Web view (the full instacalc.com app inside a note) will match your theme too, including when you switch, once instacalc.com's next update is live; the clip below shows it.
 
 <img alt="The Web view switching from dark to light and to the Minimal theme, restyling to match each" src="media/theme.gif" width="600">
 
