@@ -4,6 +4,8 @@ Calculations, units, charts and LaTeX that compute, right in your notes.
 
 [![A one-minute tour](media/tour.gif)](media/tour.mp4)
 
+> **Beta.** It works and it's fast, but syntax and settings may change before 1.0. BRAT keeps you on the latest build.
+
 ## Install
 
 Requires [BRAT](https://obsidian.md/plugins?id=obsidian42-brat), which keeps the beta up to date.
@@ -11,28 +13,76 @@ Requires [BRAT](https://obsidian.md/plugins?id=obsidian42-brat), which keeps the
 1. Install BRAT.
 2. In BRAT, add `kazad/instacalc-obsidian`.
 
-Then run **Instacalc: Create tutorial notes** from the command palette.
+Then run **Instacalc: Create tutorial notes** from the command palette, or [read the tutorial here](examples/Instacalc%20Tutorial).
 
 ## What it does
 
-- **Math in plain words:** `rent = $1,850/month`, then `rent * 12`. Units and currencies convert themselves.
-- **Answers in sentences:** `ic: total / 4` inside a paragraph.
-- **LaTeX that computes:** `$$h = \frac{v_0^2}{2g}$$` shows 11.48 m.
-- **Charts from your numbers:** bar, pie, donut, plots, 3D surfaces.
+- **Math in plain words:** `rent = $1,850/month`, then `rent * 1 year`. Units and currencies convert themselves.
+- **Answers in sentences:** write `{total / 4}` anywhere in a paragraph.
+- **LaTeX that computes:** `$$\frac{1}{2} \cdot 9.8 \cdot 3^2$$` shows its answer.
+- **Charts from your numbers:** add a `barchart` or `piechart` line to a block.
 - **What-ifs:** drag a number to explore; drag an answer and it solves backwards.
 - **Your vault as data:** `[[Budget]].limit`, markdown tables, folder totals.
 - **Calc-first notes:** name a note `.ic.md` and every line computes.
-- **Share:** a link with the whole calculation in it, or the web Present view.
+- **Share:** one click makes a link with the whole calculation in it.
+
+## Recipes
+
+Put these in an `ic` code block (or any line of an `.ic.md` note).
+
+**Split a bill**
+```ic
+bill = $86.40
+tip = 18% of bill
+each = (bill + tip) / 4
+```
+
+**Trip budget in another currency**
+```ic
+hotel = 180 USD * 6
+flights = 1450 USD
+total = hotel + flights
+total in EUR
+```
+
+**Units and dates**
+```ic
+5 km in miles
+today + 90 days
+```
+
+**A value from another note** (its frontmatter has `hourly: 150`)
+```ic
+fee = [[Rates]].hourly * 12
+```
+
+**Add up a folder** (each note has `amount: 12` in its frontmatter)
+```ic
+spend = vaultsum("Expenses/**", amount)
+```
+
+**Sum a column of a markdown table** in the same note
+```ic
+sum(table("Materials", Cost))
+```
+
+**Chart it**
+```ic
+rent = 1850
+food = 600
+fun = 300
+piechart
+```
 
 ## Share links
 
-A share link is the calculation itself, written into the URL. The rows are joined by `;`, spaces become `_`, and the note's name leads as a `# heading`:
+A share link is the calculation itself, written into the URL: rows joined by `;`, spaces as `_`, the note's name first.
 
 ```
-https://instacalc.com/%23_Japan_trip;nights_=_6;hotel_=_180_USD_*_nights;flights_=_1450_USD;total_=_hotel_+_flights;total_in_JPY
+https://instacalc.com/%23_Japan_trip;nights_=_6;hotel_=_180_USD_*_nights;hotel_in_JPY
 ```
 
-Anyone with the link sees the live calc, and can change the numbers and see the results update. They don't need Obsidian or an account, and nothing is stored on a server. Some rows use values from elsewhere in your vault, like `[[Budget]].rate` or a variable set earlier in the note. The link carries those values, so it works on its own. You can edit a link by hand: `instacalc.com/2+2` works.
+Anyone with it sees the live calc: no Obsidian, no account, nothing stored on a server. Values from other notes are written into the link, so it works on its own.
 
 ## How it compares
 
