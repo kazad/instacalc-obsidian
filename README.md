@@ -106,6 +106,22 @@ piechart
 ```
 ````
 
+## Using your vault
+
+Your notes' properties (frontmatter) are numbers you can calculate with.
+
+| Write | You get |
+|---|---|
+| `rate * hours` | `rate` from this note's own properties |
+| `[[Rates]].hourly` | the `hourly` property of the note Rates |
+| `[[Rates]]` | that note's main number (`value`, `result`, `total` or `amount`, or its only number) |
+| `vaultsum("Expenses/*", amount)` | `amount` added up across a folder; also `vaultavg`, `vaultmin`, `vaultmax`, `vaultcount` |
+| `vaultsum("#trip", cost)` | the same, for every note with a tag |
+| `vaulttable("#project", budget, status)` | one row per note, to sum, filter or chart |
+| `table("Materials", Cost)` | a column of a markdown table in this note |
+
+Properties can carry units and currencies (`weight: 12 kg`, `price: 40 EUR`), and answers update when those notes change.
+
 ## Share links
 
 When you create a share link, the calculation is written directly into the URL path. Rows are joined by `;`, spaces become `_`, and the note name comes first:
