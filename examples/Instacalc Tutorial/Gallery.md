@@ -253,6 +253,105 @@ barchart(table("Materials", Cost))
 ```
 ````
 
+## [[Showcase/Portfolio|A list is a sheet]]
+
+![A list is a sheet](https://raw.githubusercontent.com/kazad/instacalc-obsidian/main/media/showcase/portfolio.png)
+
+A list of records shows as a sheet; click a header to sort.
+
+````markdown
+```ic
+holdings = [{fund: "VTI", shares: 40, price: 262}, {fund: "VXUS", shares: 90, price: 63}, {fund: "BND", shares: 60, price: 73}] @sheet @cols(Fund, Shares, Price) @sort(shares desc)
+value = sum(map(holdings, h => h.shares * h.price))
+biggest = max(map(holdings, h => h.shares * h.price))
+```
+````
+
+## [[Showcase/Sales|CSV in a note]]
+
+![CSV in a note](https://raw.githubusercontent.com/kazad/instacalc-obsidian/main/media/showcase/sales.png)
+
+Paste a CSV, then total and chart it.
+
+````markdown
+## Sales
+
+```csv
+month,orders,revenue
+Jan,120,2400
+Feb,95,1900
+Mar,140,2800
+Apr,160,3350
+```
+
+```ic
+revenue = sum(csv("Sales", revenue))
+per order = revenue / sum(csv("Sales", orders))
+bars(csv("Sales", revenue), csv("Sales", month))
+```
+````
+
+## [[Showcase/Datasette table|A Datasette table]]
+
+![A Datasette table](https://raw.githubusercontent.com/kazad/instacalc-obsidian/main/media/showcase/datasette-table.png)
+
+Rows from a Datasette table, as a sheet and a chart.
+
+````markdown
+Four roadside attractions from Datasette's public demo database, and how far each is from San Francisco:
+
+```ic
+spots = import("https://latest.datasette.io/fixtures/roadside_attractions.json?_shape=array&_col=name&_col=latitude&_col=longitude") @sheet
+miles = map(spots, s => 69 * sqrt((s.latitude - 37.7749)^2 + ((s.longitude + 122.4194) * cos(37.7749))^2))
+nearest = round(min(miles))
+farthest = round(max(miles))
+bars(miles, map(spots, s => s.name))
+```
+````
+
+## [[Showcase/Datasette query|SQL with a slider]]
+
+![SQL with a slider](https://raw.githubusercontent.com/kazad/instacalc-obsidian/main/media/showcase/datasette-query.png)
+
+A slider feeds a SQL query; Datasette sends back only the matches.
+
+````markdown
+Drag the floor: the SQL runs on Datasette's server, and only the matching rows come back.
+
+```ic
+floor = 95 // 80..100 by 1
+rows = import(concat("https://latest.datasette.io/fixtures/-/query.json?_shape=array&sql=select+content,+sortable+from+sortable+where+sortable+%3E%3D+:floor+order+by+sortable+desc&floor=", floor)) @sheet
+matches = count(rows)
+average = mean(map(rows, r => r.sortable))
+bars(map(rows, r => r.sortable), map(rows, r => r.content))
+```
+````
+
+## [[Showcase/Budget check|Budget vs actual]]
+
+![Budget vs actual](https://raw.githubusercontent.com/kazad/instacalc-obsidian/main/media/showcase/budget-check.png)
+
+Planned against spent, from a table you keep by hand.
+
+````markdown
+## Budget
+
+| Category | Planned | Actual |
+|----------|---------|--------|
+| Rent | 1800 | 1800 |
+| Food | 600 | 712 |
+| Travel | 300 | 145 |
+| Fun | 200 | 260 |
+
+```ic
+rows = table("Budget")
+planned = sum(table("Budget", Planned))
+spent = sum(table("Budget", Actual))
+over = sum(map(rows, r => max(r.actual - r.planned, 0)))
+donut(table("Budget", Actual), table("Budget", Category))
+```
+````
+
 ## [[Showcase/Dinner party|Properties are variables]]
 
 ![Properties are variables](https://raw.githubusercontent.com/kazad/instacalc-obsidian/main/media/showcase/dinner-party.png)
