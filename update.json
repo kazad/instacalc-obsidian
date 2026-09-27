@@ -1,7 +1,8 @@
 {
   "v": 1,
-  "latest": "0.5.1",
-  "notes": "Test release to check that updates reach everyone through BRAT. No changes from 0.5.0.",
+  "latest": "0.5.2",
+  "released": "2026-09-27",
+  "notes": "Fixes and polish: one goal-seek label with formatted numbers, row buttons that stay flat in any theme, controls that no longer stick after Escape, a header that fits narrow panes, live exchange rates in open blocks, Copy result includes units, and a bare ```ic web opens the Web view. The Web view will match your Obsidian theme once instacalc.com's next update is live.",
   "critical": false,
   "minimum": null
 }

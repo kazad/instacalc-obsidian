@@ -5,7 +5,7 @@ Instacalc for Obsidian (main.js) includes the following open-source packages. Ea
 - nearley 2.20.1 (MIT)
 - moo 0.5.2 (BSD-3-Clause)
 - lucide icons SVG paths (ISC)
-- katex 0.16.47 (MIT)
+- katex 0.18.9 (MIT)
 
 ## nearley 2.20.1 (vendored)
 
@@ -124,7 +124,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## katex 0.16.47
+## katex 0.18.9
 
 License: MIT
 Homepage: https://katex.org
