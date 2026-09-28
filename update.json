@@ -1,8 +1,14 @@
 {
   "v": 1,
-  "latest": "0.5.3",
+  "latest": "0.5.4",
   "released": "2026-09-27",
   "notes": null,
   "critical": false,
-  "minimum": null
+  "minimum": null,
+  "announced": {
+    "version": "0.5.4",
+    "notes": "Smoother editing: typing ```ic closes the block for you, clicking a calc row puts your cursor on it, the note no longer jumps when you move into a block, and answers line up in one column. Bar charts keep their currency symbols.",
+    "released": "2026-09-27",
+    "critical": false
+  }
 }

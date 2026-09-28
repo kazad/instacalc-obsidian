@@ -2,7 +2,7 @@
 
 ![Demo: Notes that calculate](https://raw.githubusercontent.com/kazad/instacalc-obsidian/main/media/lessons/03-notes-that-calculate.gif)
 
-This is a plain `.md` note: Markdown, with Instacalc inside `` ```ic `` blocks and `{…}` in sentences.
+This is a plain `.md` note: Markdown, with Instacalc inside `` ```ic `` blocks and `{…}` in sentences. Type `` ```ic `` and press Enter: the closing `` ``` `` is added for you.
 
 ## Splitting the rent
 
